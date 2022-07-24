@@ -1,4 +1,4 @@
 .idea/
 __pycache__
-logs/
+logs/*
 model/*.pth
