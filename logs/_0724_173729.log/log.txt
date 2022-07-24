@@ -1,0 +1,149 @@
+
+:======== TransforMatcher ========
+|             datapath: ../Datasets_TransforMatcher
+|             backbone: resnet101               
+|                 luse: [3, 4]                  
+|               imside: 240                     
+|            benchmark: pfpascal                
+|                thres: auto                    
+|                alpha: 0.1                     
+|              logpath:                         
+|                   lr: 0.001                   
+|             finetune: 1e-05                   
+|                niter: 10                      
+|                  bsz: 16                      
+|              nworker: 16                      
+|                 load:                         
+|                  aug: True                    
+:=================================
+
+[Epoch: 00] [Batch: 0001/0184] Loss:   0.56  Avg Loss: 0.56421  Avg PCK:   0.69  
+[Epoch: 00] [Batch: 0002/0184] Loss:   0.55  Avg Loss: 0.55938  Avg PCK:   2.90  
+[Epoch: 00] [Batch: 0003/0184] Loss:   0.49  Avg Loss: 0.53707  Avg PCK:   3.20  
+[Epoch: 00] [Batch: 0004/0184] Loss:   0.51  Avg Loss: 0.53053  Avg PCK:   3.94  
+[Epoch: 00] [Batch: 0005/0184] Loss:   0.47  Avg Loss: 0.51784  Avg PCK:   3.90  
+[Epoch: 00] [Batch: 0006/0184] Loss:   0.43  Avg Loss: 0.50370  Avg PCK:   3.94  
+[Epoch: 00] [Batch: 0007/0184] Loss:   0.40  Avg Loss: 0.48920  Avg PCK:   4.53  
+[Epoch: 00] [Batch: 0008/0184] Loss:   0.47  Avg Loss: 0.48687  Avg PCK:   4.44  
+[Epoch: 00] [Batch: 0009/0184] Loss:   0.38  Avg Loss: 0.47490  Avg PCK:   4.80  
+[Epoch: 00] [Batch: 0010/0184] Loss:   0.53  Avg Loss: 0.48032  Avg PCK:   4.93  
+[Epoch: 00] [Batch: 0011/0184] Loss:   0.41  Avg Loss: 0.47424  Avg PCK:   5.31  
+[Epoch: 00] [Batch: 0012/0184] Loss:   0.32  Avg Loss: 0.46155  Avg PCK:   5.85  
+[Epoch: 00] [Batch: 0013/0184] Loss:   0.38  Avg Loss: 0.45555  Avg PCK:   6.04  
+[Epoch: 00] [Batch: 0014/0184] Loss:   0.32  Avg Loss: 0.44614  Avg PCK:   6.29  
+[Epoch: 00] [Batch: 0015/0184] Loss:   0.27  Avg Loss: 0.43437  Avg PCK:   6.66  
+[Epoch: 00] [Batch: 0016/0184] Loss:   0.28  Avg Loss: 0.42465  Avg PCK:   7.29  
+[Epoch: 00] [Batch: 0017/0184] Loss:   0.24  Avg Loss: 0.41393  Avg PCK:   7.93  
+[Epoch: 00] [Batch: 0018/0184] Loss:   0.33  Avg Loss: 0.40912  Avg PCK:   8.16  
+[Epoch: 00] [Batch: 0019/0184] Loss:   0.22  Avg Loss: 0.39898  Avg PCK:   9.00  
+[Epoch: 00] [Batch: 0020/0184] Loss:   0.24  Avg Loss: 0.39099  Avg PCK:  10.01  
+[Epoch: 00] [Batch: 0021/0184] Loss:   0.20  Avg Loss: 0.38179  Avg PCK:  11.47  
+[Epoch: 00] [Batch: 0022/0184] Loss:   0.28  Avg Loss: 0.37733  Avg PCK:  12.35  
+[Epoch: 00] [Batch: 0023/0184] Loss:   0.19  Avg Loss: 0.36937  Avg PCK:  13.32  
+[Epoch: 00] [Batch: 0024/0184] Loss:   0.32  Avg Loss: 0.36735  Avg PCK:  14.60  
+[Epoch: 00] [Batch: 0025/0184] Loss:   0.38  Avg Loss: 0.36767  Avg PCK:  15.33  
+[Epoch: 00] [Batch: 0026/0184] Loss:   0.18  Avg Loss: 0.36039  Avg PCK:  16.42  
+[Epoch: 00] [Batch: 0027/0184] Loss:   0.16  Avg Loss: 0.35297  Avg PCK:  17.76  
+[Epoch: 00] [Batch: 0028/0184] Loss:   0.17  Avg Loss: 0.34645  Avg PCK:  18.94  
+[Epoch: 00] [Batch: 0029/0184] Loss:   0.24  Avg Loss: 0.34266  Avg PCK:  19.76  
+[Epoch: 00] [Batch: 0030/0184] Loss:   0.25  Avg Loss: 0.33971  Avg PCK:  20.43  
+[Epoch: 00] [Batch: 0031/0184] Loss:   0.17  Avg Loss: 0.33435  Avg PCK:  21.13  
+[Epoch: 00] [Batch: 0032/0184] Loss:   0.32  Avg Loss: 0.33394  Avg PCK:  21.62  
+[Epoch: 00] [Batch: 0033/0184] Loss:   0.15  Avg Loss: 0.32829  Avg PCK:  22.54  
+[Epoch: 00] [Batch: 0034/0184] Loss:   0.26  Avg Loss: 0.32630  Avg PCK:  23.16  
+[Epoch: 00] [Batch: 0035/0184] Loss:   0.23  Avg Loss: 0.32361  Avg PCK:  23.92  
+[Epoch: 00] [Batch: 0036/0184] Loss:   0.19  Avg Loss: 0.32003  Avg PCK:  24.65  
+[Epoch: 00] [Batch: 0037/0184] Loss:   0.14  Avg Loss: 0.31516  Avg PCK:  25.38  
+[Epoch: 00] [Batch: 0038/0184] Loss:   0.34  Avg Loss: 0.31579  Avg PCK:  25.98  
+[Epoch: 00] [Batch: 0039/0184] Loss:   0.11  Avg Loss: 0.31063  Avg PCK:  26.65  
+[Epoch: 00] [Batch: 0040/0184] Loss:   0.19  Avg Loss: 0.30769  Avg PCK:  27.08  
+[Epoch: 00] [Batch: 0041/0184] Loss:   0.26  Avg Loss: 0.30664  Avg PCK:  27.34  
+[Epoch: 00] [Batch: 0042/0184] Loss:   0.27  Avg Loss: 0.30580  Avg PCK:  27.84  
+[Epoch: 00] [Batch: 0043/0184] Loss:   0.17  Avg Loss: 0.30271  Avg PCK:  28.14  
+[Epoch: 00] [Batch: 0044/0184] Loss:   0.35  Avg Loss: 0.30386  Avg PCK:  28.37  
+[Epoch: 00] [Batch: 0045/0184] Loss:   0.22  Avg Loss: 0.30205  Avg PCK:  28.69  
+[Epoch: 00] [Batch: 0046/0184] Loss:   0.17  Avg Loss: 0.29919  Avg PCK:  29.08  
+[Epoch: 00] [Batch: 0047/0184] Loss:   0.23  Avg Loss: 0.29762  Avg PCK:  29.35  
+[Epoch: 00] [Batch: 0048/0184] Loss:   0.16  Avg Loss: 0.29471  Avg PCK:  29.73  
+[Epoch: 00] [Batch: 0049/0184] Loss:   0.14  Avg Loss: 0.29163  Avg PCK:  30.23  
+[Epoch: 00] [Batch: 0050/0184] Loss:   0.17  Avg Loss: 0.28915  Avg PCK:  30.51  
+[Epoch: 00] [Batch: 0051/0184] Loss:   0.16  Avg Loss: 0.28659  Avg PCK:  30.97  
+[Epoch: 00] [Batch: 0052/0184] Loss:   0.10  Avg Loss: 0.28298  Avg PCK:  31.47  
+[Epoch: 00] [Batch: 0053/0184] Loss:   0.22  Avg Loss: 0.28182  Avg PCK:  31.77  
+[Epoch: 00] [Batch: 0054/0184] Loss:   0.21  Avg Loss: 0.28053  Avg PCK:  32.09  
+[Epoch: 00] [Batch: 0055/0184] Loss:   0.13  Avg Loss: 0.27784  Avg PCK:  32.52  
+[Epoch: 00] [Batch: 0056/0184] Loss:   0.17  Avg Loss: 0.27590  Avg PCK:  32.68  
+[Epoch: 00] [Batch: 0057/0184] Loss:   0.14  Avg Loss: 0.27350  Avg PCK:  32.95  
+[Epoch: 00] [Batch: 0058/0184] Loss:   0.18  Avg Loss: 0.27196  Avg PCK:  33.28  
+[Epoch: 00] [Batch: 0059/0184] Loss:   0.18  Avg Loss: 0.27036  Avg PCK:  33.57  
+[Epoch: 00] [Batch: 0060/0184] Loss:   0.26  Avg Loss: 0.27022  Avg PCK:  33.86  
+[Epoch: 00] [Batch: 0061/0184] Loss:   0.26  Avg Loss: 0.26997  Avg PCK:  34.10  
+[Epoch: 00] [Batch: 0062/0184] Loss:   0.16  Avg Loss: 0.26819  Avg PCK:  34.35  
+[Epoch: 00] [Batch: 0063/0184] Loss:   0.12  Avg Loss: 0.26589  Avg PCK:  34.71  
+[Epoch: 00] [Batch: 0064/0184] Loss:   0.12  Avg Loss: 0.26354  Avg PCK:  35.12  
+[Epoch: 00] [Batch: 0065/0184] Loss:   0.21  Avg Loss: 0.26274  Avg PCK:  35.25  
+[Epoch: 00] [Batch: 0066/0184] Loss:   0.16  Avg Loss: 0.26125  Avg PCK:  35.45  
+[Epoch: 00] [Batch: 0067/0184] Loss:   0.14  Avg Loss: 0.25943  Avg PCK:  35.66  
+[Epoch: 00] [Batch: 0068/0184] Loss:   0.19  Avg Loss: 0.25840  Avg PCK:  35.88  
+[Epoch: 00] [Batch: 0069/0184] Loss:   0.18  Avg Loss: 0.25723  Avg PCK:  36.12  
+[Epoch: 00] [Batch: 0070/0184] Loss:   0.27  Avg Loss: 0.25735  Avg PCK:  36.10  
+[Epoch: 00] [Batch: 0071/0184] Loss:   0.19  Avg Loss: 0.25638  Avg PCK:  36.31  
+[Epoch: 00] [Batch: 0072/0184] Loss:   0.17  Avg Loss: 0.25512  Avg PCK:  36.58  
+[Epoch: 00] [Batch: 0073/0184] Loss:   0.10  Avg Loss: 0.25306  Avg PCK:  36.89  
+[Epoch: 00] [Batch: 0074/0184] Loss:   0.21  Avg Loss: 0.25245  Avg PCK:  37.07  
+[Epoch: 00] [Batch: 0075/0184] Loss:   0.16  Avg Loss: 0.25121  Avg PCK:  37.34  
+[Epoch: 00] [Batch: 0076/0184] Loss:   0.11  Avg Loss: 0.24932  Avg PCK:  37.59  
+[Epoch: 00] [Batch: 0077/0184] Loss:   0.16  Avg Loss: 0.24817  Avg PCK:  37.79  
+[Epoch: 00] [Batch: 0078/0184] Loss:   0.16  Avg Loss: 0.24700  Avg PCK:  38.02  
+[Epoch: 00] [Batch: 0079/0184] Loss:   0.19  Avg Loss: 0.24631  Avg PCK:  38.13  
+[Epoch: 00] [Batch: 0080/0184] Loss:   0.19  Avg Loss: 0.24566  Avg PCK:  38.26  
+[Epoch: 00] [Batch: 0081/0184] Loss:   0.19  Avg Loss: 0.24497  Avg PCK:  38.50  
+[Epoch: 00] [Batch: 0082/0184] Loss:   0.10  Avg Loss: 0.24322  Avg PCK:  38.81  
+[Epoch: 00] [Batch: 0083/0184] Loss:   0.26  Avg Loss: 0.24347  Avg PCK:  38.91  
+[Epoch: 00] [Batch: 0084/0184] Loss:   0.17  Avg Loss: 0.24254  Avg PCK:  39.09  
+[Epoch: 00] [Batch: 0085/0184] Loss:   0.14  Avg Loss: 0.24139  Avg PCK:  39.23  
+[Epoch: 00] [Batch: 0086/0184] Loss:   0.15  Avg Loss: 0.24037  Avg PCK:  39.42  
+[Epoch: 00] [Batch: 0087/0184] Loss:   0.14  Avg Loss: 0.23921  Avg PCK:  39.58  
+[Epoch: 00] [Batch: 0088/0184] Loss:   0.13  Avg Loss: 0.23791  Avg PCK:  39.77  
+[Epoch: 00] [Batch: 0089/0184] Loss:   0.23  Avg Loss: 0.23778  Avg PCK:  39.96  
+[Epoch: 00] [Batch: 0090/0184] Loss:   0.12  Avg Loss: 0.23646  Avg PCK:  40.15  
+[Epoch: 00] [Batch: 0091/0184] Loss:   0.11  Avg Loss: 0.23509  Avg PCK:  40.34  
+[Epoch: 00] [Batch: 0092/0184] Loss:   0.19  Avg Loss: 0.23463  Avg PCK:  40.49  
+[Epoch: 00] [Batch: 0093/0184] Loss:   0.13  Avg Loss: 0.23352  Avg PCK:  40.67  
+[Epoch: 00] [Batch: 0094/0184] Loss:   0.11  Avg Loss: 0.23225  Avg PCK:  40.88  
+[Epoch: 00] [Batch: 0095/0184] Loss:   0.14  Avg Loss: 0.23127  Avg PCK:  41.05  
+[Epoch: 00] [Batch: 0096/0184] Loss:   0.13  Avg Loss: 0.23020  Avg PCK:  41.16  
+[Epoch: 00] [Batch: 0097/0184] Loss:   0.21  Avg Loss: 0.22994  Avg PCK:  41.28  
+[Epoch: 00] [Batch: 0098/0184] Loss:   0.09  Avg Loss: 0.22854  Avg PCK:  41.49  
+[Epoch: 00] [Batch: 0099/0184] Loss:   0.14  Avg Loss: 0.22768  Avg PCK:  41.71  
+[Epoch: 00] [Batch: 0100/0184] Loss:   0.16  Avg Loss: 0.22705  Avg PCK:  41.79  
+[Epoch: 00] [Batch: 0101/0184] Loss:   0.16  Avg Loss: 0.22641  Avg PCK:  41.99  
+[Epoch: 00] [Batch: 0102/0184] Loss:   0.09  Avg Loss: 0.22509  Avg PCK:  42.17  
+[Epoch: 00] [Batch: 0103/0184] Loss:   0.09  Avg Loss: 0.22376  Avg PCK:  42.35  
+[Epoch: 00] [Batch: 0104/0184] Loss:   0.13  Avg Loss: 0.22286  Avg PCK:  42.50  
+[Epoch: 00] [Batch: 0105/0184] Loss:   0.19  Avg Loss: 0.22253  Avg PCK:  42.60  
+[Epoch: 00] [Batch: 0106/0184] Loss:   0.18  Avg Loss: 0.22210  Avg PCK:  42.73  
+[Epoch: 00] [Batch: 0107/0184] Loss:   0.07  Avg Loss: 0.22069  Avg PCK:  43.02  
+[Epoch: 00] [Batch: 0108/0184] Loss:   0.08  Avg Loss: 0.21941  Avg PCK:  43.28  
+[Epoch: 00] [Batch: 0109/0184] Loss:   0.11  Avg Loss: 0.21837  Avg PCK:  43.45  
+[Epoch: 00] [Batch: 0110/0184] Loss:   0.06  Avg Loss: 0.21694  Avg PCK:  43.70  
+[Epoch: 00] [Batch: 0111/0184] Loss:   0.13  Avg Loss: 0.21612  Avg PCK:  43.82  
+[Epoch: 00] [Batch: 0112/0184] Loss:   0.15  Avg Loss: 0.21555  Avg PCK:  43.93  
+[Epoch: 00] [Batch: 0113/0184] Loss:   0.09  Avg Loss: 0.21446  Avg PCK:  44.10  
+[Epoch: 00] [Batch: 0114/0184] Loss:   0.08  Avg Loss: 0.21332  Avg PCK:  44.25  
+[Epoch: 00] [Batch: 0115/0184] Loss:   0.18  Avg Loss: 0.21300  Avg PCK:  44.33  
+[Epoch: 00] [Batch: 0116/0184] Loss:   0.11  Avg Loss: 0.21213  Avg PCK:  44.48  
+[Epoch: 00] [Batch: 0117/0184] Loss:   0.16  Avg Loss: 0.21168  Avg PCK:  44.59  
+[Epoch: 00] [Batch: 0118/0184] Loss:   0.15  Avg Loss: 0.21114  Avg PCK:  44.70  
+[Epoch: 00] [Batch: 0119/0184] Loss:   0.13  Avg Loss: 0.21046  Avg PCK:  44.75  
+[Epoch: 00] [Batch: 0120/0184] Loss:   0.18  Avg Loss: 0.21017  Avg PCK:  44.81  
+[Epoch: 00] [Batch: 0121/0184] Loss:   0.20  Avg Loss: 0.21011  Avg PCK:  44.91  
+[Epoch: 00] [Batch: 0122/0184] Loss:   0.12  Avg Loss: 0.20940  Avg PCK:  45.05  
+[Epoch: 00] [Batch: 0123/0184] Loss:   0.17  Avg Loss: 0.20907  Avg PCK:  45.10  
+[Epoch: 00] [Batch: 0124/0184] Loss:   0.11  Avg Loss: 0.20830  Avg PCK:  45.30  
+[Epoch: 00] [Batch: 0125/0184] Loss:   0.13  Avg Loss: 0.20764  Avg PCK:  45.39  
+[Epoch: 00] [Batch: 0126/0184] Loss:   0.25  Avg Loss: 0.20800  Avg PCK:  45.46  
+[Epoch: 00] [Batch: 0127/0184] Loss:   0.12  Avg Loss: 0.20734  Avg PCK:  45.60  
+[Epoch: 00] [Batch: 0128/0184] Loss:   0.11  Avg Loss: 0.20657  Avg PCK:  45.67  
+[Epoch: 00] [Batch: 0129/0184] Loss:   0.09  Avg Loss: 0.20568  Avg PCK:  45.82  
+[Epoch: 00] [Batch: 0130/0184] Loss:   0.10  Avg Loss: 0.20491  Avg PCK:  45.98  
