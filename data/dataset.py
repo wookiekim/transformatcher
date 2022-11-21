@@ -131,8 +131,9 @@ class CorrespondenceDataset(Dataset):
         else:
             batch['src_img'] = self.transform(src_pil)
             batch['trg_img'] = self.transform(trg_pil)
-            batch['src_bbox'] = self.get_bbox(self.src_bbox, idx, batch['src_imsize'])
-            batch['trg_bbox'] = self.get_bbox(self.trg_bbox, idx, batch['trg_imsize'])
+            if self.benchmark != 'pfwillow':
+                batch['src_bbox'] = self.get_bbox(self.src_bbox, idx, batch['src_imsize'])
+                batch['trg_bbox'] = self.get_bbox(self.trg_bbox, idx, batch['trg_imsize'])
 
         # Total number of pairs in training split
         batch['datalen'] = len(self.train_data)
